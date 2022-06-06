@@ -2,7 +2,7 @@
     background: transparent;
     width:88%;
     height:78vh;
-    margin-top:22vh;
+    margin-top:12vh;
     float:left;
     margin-left:5%;
 }
@@ -30,4 +30,9 @@
     margin-top: 20px;
     font-size: 18px;
     border-radius: 3px;
+}
+
+.home a{
+    color: #10f7d8;
+    text-decoration: none;
 }

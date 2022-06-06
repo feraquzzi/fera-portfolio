@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { CodeSlash } from 'react-bootstrap-icons';
 import './styles/home.css';
 
@@ -12,7 +13,7 @@ const Home = () => {
         <h1>Web developer. <CodeSlash color="grey" size={20}/></h1>
       </div>
       <p>Front-end developer / Shopify Expert / Graphics designer / UI/UX designer</p>
-      <button>Let's talk</button>
+      <button><Link to="/">Let's Talk</Link></button>
     </div>
   )
 }

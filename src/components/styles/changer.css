@@ -1,0 +1,12 @@
+.changer{
+    background: pink;
+    width:88%;
+    height:7vh;
+    margin-top: 3vh;
+    float:left;
+    margin-left:5%;
+}
+
+.changer h3{
+    float: right;
+}
