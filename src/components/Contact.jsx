@@ -5,7 +5,7 @@ import { Telephone } from 'react-bootstrap-icons';
 const Contact = () => {
   return (
     <div className="contact">
-      <h1>Contact Us</h1>
+      <h1>Get In Touch</h1>
       <form>
         <div className="contactform">
           

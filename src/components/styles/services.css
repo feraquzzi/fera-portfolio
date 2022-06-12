@@ -1,8 +1,8 @@
 .services{
     background: transparent;
     width:88%;
-    height:81vh;
-    margin-top:9vh;
+    height:85vh;
+    margin-top:5vh;
     float:left;
     margin-left:5%;
 }
@@ -38,7 +38,7 @@
 
 .service1:hover{
     width:30%;
-    height:400px;
+    height:435px;
     transition:0.8s ease-in-out;
 }
 
@@ -46,8 +46,17 @@
     width:100%;
     height:250px;
     border-radius: 15px;
-    background:lightgrey;
+    background:transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.service1a img{
+    width:270px;
+    height:200px;  
+}
+
 
 .service1a:hover {
     border-bottom-left-radius: 0px;
@@ -66,10 +75,79 @@
 
 .service1b{
     width:100%;
-    height:150px;
+    border-top:3px solid #2b6d63;
+    height:185px;
     border-radius: 15px;
-    background:pink;
-    
+    background:rgb(226,226,226);
+}
+
+.service1b p{
+    font-size:14px;
+    font-family: calibri;
+    padding-top: 10px;
+}
+
+.service1b button{
+    background: #2b6d63;
+    border: 2px solid #2b6d63;
+    padding: 7px 10px 7px 10px;
+    margin-top: 5px;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.front {
+    width:90%;
+    height:175px;
+    margin-left:5%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    font-family: calibri;
+    /*text-align: center;*/
+}
+
+.fronthead{
+    display: flex;
+    justify-content: space-between;
+}
+
+.front h3{
+    color:#2b6d63;
+    font-size:22px;
+}
+
+.front p{
+    color: rgb(80,80,80);
+    font-size:14px;
+    font-family: calibri;
+    padding-top: 10px;
+}
+
+.front button{
+    background: #2b6d63;
+    border: 2px solid #2b6d63;
+    padding: 7px 10px 7px 10px;
+    margin-top: 5px;
+    color: white;
+    border-bottom-left-radius: 10px;
+}
+
+.touch{
+    display: flex;
+    justify-content: space-between;
+}
+
+.touch button{
+    background: #2b6d63;
+    border: 2px solid #2b6d63;
+    padding: 7px 10px 7px 10px;
+    margin-top: 5px;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 0px 5px 2px rgba(180,180,180,0.8);
 }
 
 .service1a:hover .service1{
@@ -90,7 +168,7 @@
 
 .service2:hover{
     width:30%;
-    height:400px;
+    height:435px;
     transition:1s ease-in-out;
 }
 
@@ -106,8 +184,7 @@
 
 .service2a img{
     width:200px;
-    height:200px;
-    
+    height:200px;  
 }
 
 .service2a:hover {
@@ -127,10 +204,10 @@
 
 .service2b{
     width:100%;
-    height:150px;
+    border-top:3px solid #2b6d63;
+    height:185px;
     border-radius: 15px;
-    background:pink;
-    
+    background:whitesmoke;
 }
 
 .service2a:hover .service2{
@@ -149,7 +226,7 @@
 
 .service3:hover{
     width:30%;
-    height:400px;
+    height:435px;
     transition:1s ease-in-out;
 }
 
@@ -157,7 +234,15 @@
     width:100%;
     height:250px;
     border-radius: 15px;
-    background:lightgrey;
+    background:transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service3a img{
+    width:300px;
+    height:300px;  
 }
 
 .service3a:hover {
@@ -177,10 +262,10 @@
 
 .service3b{
     width:100%;
-    height:150px;
+    border-top:3px solid #2b6d63;
+    height:185px;
     border-radius: 15px;
-    background:pink;
-    
+    background:whitesmoke;
 }
 
 .service3a:hover .service3{

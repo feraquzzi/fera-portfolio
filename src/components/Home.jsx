@@ -13,7 +13,7 @@ const Home = () => {
         <h1>Web developer. <CodeSlash color="grey" size={20}/></h1>
       </div>
       <p>Front-end developer / Shopify Expert / Graphics designer / UI/UX designer</p>
-      <button><Link to="/">Let's Talk</Link></button>
+      <Link to="/contact"><button>Let's Talk</button></Link>
     </div>
   )
 }
