@@ -201,7 +201,17 @@ const Profile = () => {
       </div>
 
       <div className='exp'>
+        <div className='exp1'>
+              
+        </div>
 
+        <div className='exp2'>
+
+        </div>
+
+        <div className='exp3'>
+
+        </div>
       </div>
       
     </div>

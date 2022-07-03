@@ -1,7 +1,37 @@
-li{
-    padding-top: 15px;
+@media(min-width: 801px){
+    .social{
+        margin-top: 100px;
+    }
+    
+    li{
+        padding-top: 20px;
+        list-style: none;
+    }
+    
+    a{
+        color: rgb(158, 154, 154);
+    }
 }
 
-a{
-    color: rgb(158, 154, 154);
+
+@media(max-width: 800px){
+    .social{
+        margin-top: -50px !important;
+        background-color: transparent;
+        height: 100px;
+    }
+
+    .social ul li a{
+        float:left;
+        font-size: 50px;
+    }
+
+    li{
+        /*padding-top: 20px;*/
+        list-style: none;
+    }
+    
+    a{
+        color: #fff;
+    }
 }

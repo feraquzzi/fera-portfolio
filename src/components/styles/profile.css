@@ -547,4 +547,27 @@
     background:rgba(90,90,90,0.4);
     margin-top:50px;
     margin-bottom:40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.exp1{
+    width:25%;
+    height: 40vh;
+    float:left;
+    background:pink;
+}
+
+.exp2{
+    width:25%;
+    height: 40vh;
+    float:left;
+    background:pink;
+}
+
+.exp3{
+    width:25%;
+    height: 40vh;
+    float:left;
+    background:pink;
 }
